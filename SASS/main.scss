@@ -1,0 +1,399 @@
+// Color variables
+$white: #ffffff;
+$border_color: rgb(209, 209, 209);
+$orange: rgb(245, 117, 70);
+
+.Playfair__font {
+  font-family: "Playfair Display", serif !important;
+  font-family: "Roboto", sans-serif;
+}
+.bg1 {
+  background-color: #fd4e55;
+}
+.bg2 {
+  background-color: #6cbca1;
+}
+.bg3 {
+  background-color: #ffb83c;
+}
+.bg4 {
+  background-color: #0b1010;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+.overflow_x_hide {
+  overflow-x: hidden !important;
+}
+.my__nav__bnavbarg {
+  background-color: #030124 !important;
+}
+
+.hero__outer__container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/home-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icon__box {
+  background-color: $orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chart__main__box {
+  width: 100vw;
+  max-width: 300px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+  overflow-x: hidden;
+}
+#counter_container {
+  transform: translate(0%, -50px);
+  background-color: $orange;
+}
+.counter__number {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+}
+.plus__icon__counter {
+  position: absolute;
+  top: 0;
+}
+.brands__anim {
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+  img {
+    height: 100%;
+    position: relative;
+    animation-name: brand_img_anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+}
+.services__outer__container {
+  background-color: #f3f7f9;
+}
+.services__outer__container__main {
+  background-image: linear-gradient(180deg, rgb(12, 13, 18), rgb(5, 51, 110));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services__side__img {
+  background-image: url(../images/service_image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service__link {
+  background-color: transparent;
+  transition: all 0.6s;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  &:hover {
+    border: 2px solid #00afff;
+  }
+  img {
+    width: 70px;
+  }
+  h2 {
+    color: white;
+  }
+}
+// services why we are container starts
+.why__we__reason__box__borderright {
+  border-right: 1px solid rgb(92, 92, 92);
+}
+.why__we__reason__box__bordertop {
+  border-top: 1px solid rgb(92, 92, 92);
+}
+.why__we__reason__box__contentcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+// services why we are container ends
+@keyframes brand_img_anim {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.my__apps__carousel {
+  height: calc(100vh - 60px);
+  max-height: 800px;
+}
+.my__apps__carousel__btn__prev,
+.my__apps__carousel__btn__next {
+  width: 50px;
+}
+.we__work__links {
+  transition: all 0.3s;
+  background-color: #ffffff;
+  &:hover {
+    box-shadow: 0px -5px 10px rgb(235, 232, 232);
+    transform: scale(1.05);
+    transform: translate(0, -5px);
+  }
+}
+.carousel__btn__color {
+  background-color: rgb(219, 219, 219) !important;
+}
+.carousel__btn__casestudy:hover {
+  i {
+    transition: all 0.3s;
+    padding-left: 20px;
+  }
+}
+.carousel__phone__width {
+  width: 55%;
+}
+.tech__box {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tech__box__border__bottom {
+  border-bottom: 2px solid rgb(211, 210, 210);
+}
+.tech__box__border__right {
+  border-right: 2px solid rgb(211, 210, 210);
+}
+.tech__box__border__nonebottom {
+  border-bottom: none;
+}
+.tech__img {
+  width: 50px;
+}
+.view__all__btn {
+  width: 100%;
+  max-width: 200px;
+}
+.testimonial_number {
+  width: 80px;
+  height: 80px;
+}
+.award__heading {
+  position: relative;
+}
+.award__heading::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100px;
+  height: 5px;
+  background-color: rgb(0, 131, 253);
+}
+.award__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: white;
+}
+.award__card__overlay {
+  background-color: $orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0) rotate(180deg);
+  transition: all 0.4s;
+}
+.award__card:hover .award__card__overlay {
+  transform: scale(1) rotate(0);
+}
+.award__card__overlay p {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+.client__img__container {
+  border-radius: 5px;
+}
+.client__overlay {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.client__overlay:hover {
+  width: calc(100% - 25px);
+  height: calc(100% - 25px);
+}
+.client1__overlay:hover {
+  border: 2px solid rgb(250, 63, 63);
+}
+.client2__overlay:hover {
+  border: 2px solid rgb(38, 121, 0);
+}
+.client3__overlay:hover {
+  border: 2px solid rgb(209, 195, 0);
+}
+.client4__overlay:hover {
+  border: 2px solid rgb(45, 152, 252);
+}
+.client5__overlay:hover {
+  border: 2px solid rgb(3, 178, 201);
+}
+.client6__overlay:hover {
+  border: 2px solid rgb(182, 0, 12);
+}
+.client7__overlay:hover {
+  border: 2px solid rgb(8, 0, 43);
+}
+.client8__overlay:hover {
+  border: 2px solid rgb(0, 255, 255);
+}
+.client1__bg {
+  background-color: rgb(255, 235, 235);
+}
+.client2__bg {
+  background-color: rgb(211, 253, 198);
+}
+.client3__bg {
+  background-color: rgb(250, 255, 174);
+}
+.client4__bg {
+  background-color: rgb(210, 211, 255);
+}
+.client5__bg {
+  background-color: rgb(191, 251, 255);
+}
+.client6__bg {
+  background-color: rgb(233, 185, 197);
+}
+.client7__bg {
+  background-color: rgb(228, 228, 228);
+}
+.client8__bg {
+  background-color: rgb(153, 0, 255);
+}
+.contactus__outer__main__container {
+  background-color: #f3f7f9;
+}
+.side__image__container {
+  background-image: url("../images/get-in-touch-side-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form__container {
+  background-image: url("../images/get-in-touch-bg-map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input__border {
+  border: none;
+  border: 1px solid $border_color;
+  padding: 8px 12px;
+}
+.information__section__border {
+  border-top: 1px solid $border_color;
+  border-bottom: 1px solid $border_color;
+}
+.information__box__border__left {
+  border-left: 1px solid $border_color;
+}
+.information__box__border__right {
+  border-right: 1px solid $border_color;
+}
+.terms__box__border__top {
+  border-top: 1px solid rgb(102, 102, 102);
+}
+#footer {
+  background-image: url("../images/footer-bg.jpg");
+}
+.footer__icons__bg {
+  background-color: rgba($color: #ffffff, $alpha: 0.2);
+  width: 40px;
+  height: 40px;
+}
+.footer__links {
+  color: white;
+  transition: all 0.3s;
+  font-size: 16px;
+  &:hover {
+    color: rgb(0, 219, 219);
+  }
+}
+.font__14 {
+  font-size: 14px !important;
+}
+.font__20 {
+  font-size: 20px !important;
+}
+// service php starts
+.benefitsofourphpservices__container {
+  background-image: url("../../images/About/who-we-are-bg.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+// service php ends
+@media only screen and (max-width: 992px) {
+  .testimonial_number {
+    width: 50px;
+    height: 50px;
+  }
+  .my__nav__dropdown {
+    background-color: #030124;
+  }
+  .tech__box__border__none_bottom {
+    border-bottom: none;
+  }
+  .tech__box__border__none_right {
+    border-right: none;
+  }
+  .tech__box__border__on__992bottom {
+    border-bottom: 2px solid rgb(211, 210, 210);
+  }
+  .tech__box__border__rightsm {
+    border-right: 2px solid rgb(211, 210, 210);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .information__section__border {
+    border-top: none;
+    border-bottom: none;
+  }
+  .information__box__border__left {
+    border-left: none;
+  }
+  .information__box__border__right {
+    border-right: none;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 25px;
+  }
+}

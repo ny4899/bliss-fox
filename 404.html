@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>theblissfox</title>
+
+    <!-- loader  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="js/loader.js"></script>
+
+    <!-- Favicon starts  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav_icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/fav_icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/fav_icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/fav_icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/fav_icon.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Favicon ends  -->
+
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fuzzy+Bubbles:wght@700&family=Playfair+Display&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .main__bg {
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(25, 0, 136),
+          rgb(12, 122, 122),
+          rgb(129, 7, 119)
+        );
+        height: 100vh;
+      }
+      .main__heading {
+        font-size: 100px;
+      }
+      .my__font {
+        font-family: "Fredoka One", cursive;
+      }
+      .back__btn {
+        padding: 10px 20px;
+        border: none;
+        color: white;
+
+        background-color: transparent;
+        border: 3px solid white;
+        border-radius: 30px;
+        transition: all 0.3s;
+      }
+      .back__btn:hover {
+        padding: 10px 30px;
+      }
+      @media only screen and (max-width: 300px) {
+        .main__heading {
+          font-size: 70px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="w-100 bg-info main__bg d-flex align-items-center justify-content-center flex-column"
+    >
+      <h1 class="main__heading fw-bold text-white my__font">404</h1>
+      <p class="my__font text-white text-center">Page not found</p>
+
+      <button id="backBtn" class="back__btn my__font">BACK</button>
+    </div>
+
+    <script>
+      document.getElementById("backBtn").addEventListener("click", function () {
+        window.history.back();
+      });
+    </script>
+    <!-- bootstrap.js  -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

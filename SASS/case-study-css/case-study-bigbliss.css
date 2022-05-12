@@ -1,0 +1,21 @@
+.sperator {
+  width: 100%;
+  height: 60px;
+}
+.features__container {
+  background-color: #fb4950;
+}
+.journey__container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-image: url("../../images/CaseStudy-bigbliss/journey__bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project__outline__icon__img {
+  top: -40px;
+  left: 15px;
+  transform: translate(0%, -50%);
+}

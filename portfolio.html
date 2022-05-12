@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web-site</title>
+
+    <!-- loader  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="js/loader.js"></script>
+
+    <!-- Favicon starts  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav_icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/fav_icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/fav_icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/fav_icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/fav_icon.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Favicon ends  -->
+
+    <!-- Google Fonts Open sans bold -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+
+    <!-- main.css  -->
+    <link rel="stylesheet" href="SASS/main.css" />
+    <!-- navbar.css  -->
+    <link rel="stylesheet" href="SASS/navbar.css">
+
+    <!-- Portfolio css  -->
+    <link rel="stylesheet" href="SASS/portfolio.css" />
+    <!-- loader  -->
+    <link rel="stylesheet" href="SASS/loader.css" />
+    <!-- Scroll Animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <!-- bootstrap icon cdn  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  </head>
+
+  <body>
+    <div class="se-pre-con"></div>
+    
+  
+    <nav class="my__nav my__nav__background my__nav__bnavbarg">
+      <div class="my__navinner container-xxl px-4 px-sm-5 ">
+        <div class="nav__left">
+        <a class="" >
+        <img src="images/logo.png" alt="" height="24" />
+        </a>
+      </div>
+  
+  
+      <div class="nav__right">
+    <ul>
+      <li><a class="nav__link " href="index.html">HOME</a></li>
+      <li><a href="about.html" class="nav__link">ABOUT</a></li>
+      <li class="nav__main__links  h-100 d-flex align-items-center">
+        <a href="services.html" class="nav__link">SERVICES <i class="bi bi-caret-down-fill"></i></a>
+        <div class="dropdown__box w-100 position-absolute px-5" >
+        <div class="container-xxl p-3 p-sm-4 mx-auto bg-light rounded-3 shadow ">
+        <div class="row">
+  <div class="col-3">
+    <div class="d-flex flex-column">
+  <a class="nav__main__link" href="Services HTML/service-app.html">App Development</a>
+      <a class="nav__sub__link" href="Services HTML/service-android.html">Android App Development</a>
+      <a class="nav__sub__link" href="Services HTML/service-ios.html">ios App Development</a>
+      <a class="nav__sub__link" href="Services HTML/service-hybrid.html">hybrid App Development</a>
+      <a class="nav__sub__link" href="Services HTML/service-webapp.html">web App Development</a>
+      </div>
+  </div>
+  <div class="col-3">
+    <div class="d-flex flex-column">
+      <a href="Services HTML/service-web.html" class="nav__main__link" >Web Design & Development</a>
+      <a href="Services HTML/service-frontend.html"  class="nav__sub__link" >Frontend Development</a>
+      <a href="Services HTML/service-vue.html"  class="nav__sub__link" >Vue js Development</a>
+      <a href="Services HTML/service-backend.html"  class="nav__sub__link" >Backend Development</a>
+      <a href="Services HTML/service-php.html" class="nav__sub__link" >php Development</a>
+      <a href="Services HTML/service-python.html" class="nav__sub__link" >python Development</a>
+      <a href="Services HTML/service-go.html" class="nav__sub__link" >Go Development</a>
+      <a href="Services HTML/service-mean.html"  class="nav__sub__link" >MEAN Development</a>
+      <a href="Services HTML/service-mern.html"  class="nav__sub__link" >MERN Development</a>
+      <a href="Services HTML/service-websecurity.html"  class="nav__sub__link" >Web Security</a>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="d-flex flex-column">
+  <a href="Services HTML/service-digitalmarketing.html" class="nav__main__link" >Digital Marketing</a>
+  <a class="nav__sub__link" href="Services HTML/service-digitalmarketing.html#seo">SEO</a>
+  <a href="Services HTML/service-digitalmarketing.html#smo" class="nav__sub__link" >SMO</a>
+  <a href="Services HTML/service-digitalmarketing.html#aso" class="nav__sub__link" >ASO</a>
+  <a href="Services HTML/service-digitalmarketing.html#email" class="nav__sub__link" >Email marketing</a>
+      </div>
+  </div>
+  <div class="col-3">
+    <div class="d-flex flex-column">
+      <a class="nav__main__link" href="Services HTML/service-ui-ux.html">UI/UX Designing</a>
+      <a class="nav__main__link" href="Services HTML/service-graphic.html">Graphic Design</a>
+      <a class="nav__main__link" href="Services HTML/service-wearable.html">Wearable Development</a>
+      <a class="nav__main__link" href="Services HTML/service-iot.html">IoT Development</a>
+      <a class="nav__main__link" href="Services HTML/service-cloud.html">Cloud computing</a>
+    </div>
+  </div>
+  
+        </div>
+      </div>
+        </div>
+      </li>
+      <li><a class="nav__link actived">PORTFOLIO</a></li>
+      <li><a href="team.html" class="nav__link">TEAM</a></li>
+      <li><a class="nav__link">BLOG</a></li>
+      <li><a class="btn get_in_touch" href="get-in-touch.html" role="button">GET IN TOUCH</a></li>
+    </ul>
+  </div>
+  
+  <div class="hum__icon__container">
+    <i id="humIcon" class="hum__icon bi bi-list text-white fs-1"></i>
+  </div>
+  
+  <div class="mob__nav__main__slide mob__nav__show bg-light rounded-2 shadow">
+        <div class="w-100">
+          <ul class="mob__nav__link__inner__container w-100 px-0 py-3 ">
+  
+    
+    <li class="position-relative"><a class=" mob__nav__main__link " href="index.html">HOME</a></li>
+       
+            <li class="position-relative"><a class=" mob__nav__main__link" href="about.html">ABOUT</a></li>
+            <li class="position-relative"><a class=" mob__nav__main__link"  >SERVICES <i class="bi bi-caret-down-fill"></i></a>
+              <div  class="w-100 mob__nav__sub__drop__container dis_none">
+         
+                       <ul class=" mx-2 bg-primary rounded-3 list-unstyled py-2 px-3">
+                         <li class=""><a href="services.html" class="mob__nav__sub__link__heading ">SERVICES</a></li>
+                         <li><hr class="dropdown-divider text-white"></li>
+                         <li class=""><a href="Services HTML/service-app.html" class="mob__nav__sub__link__heading ">App Development</a></li>
+                         <li class=""><a href="Services HTML/service-android.html" class="mob__nav__sub__link">Android App Development</a></li>
+                         <li class=""><a href="Services HTML/service-ios.html" class="mob__nav__sub__link">ios App Development</a></li>
+                         <li class=""><a href="Services HTML/service-hybrid.html" class="mob__nav__sub__link">Hybrid App Development</a></li>
+                        
+                         <li class=""><a href="Services HTML/service-webapp.html" class="mob__nav__sub__link">web App Development</a></li>
+                         <li><hr class="dropdown-divider text-white"></li>
+                         <li class=""><a href="Services HTML/service-web.html" class="mob__nav__sub__link__heading ">Web Design & Development</a></li>
+                         <li class=""><a href="Services HTML/service-frontend.html" class="mob__nav__sub__link">Frontend Development</a></li>
+                         <li class=""><a href="Services HTML/service-vue.html" class="mob__nav__sub__link">Vue js Development</a></li>
+                         <li class=""><a href="Services HTML/service-backend.html" class="mob__nav__sub__link ">Backend Development</a></li>
+                         <li class=""><a href="Services HTML/service-php.html" class="mob__nav__sub__link">php Development</a></li>
+                         <li class=""><a href="Services HTML/service-python.html" class="mob__nav__sub__link">python Development</a></li>
+                         <li class=""><a href="Services HTML/service-go.html" class="mob__nav__sub__link">Go Development</a></li>
+                         <li class=""><a href="Services HTML/service-mean.html" class="mob__nav__sub__link">MEAN Development</a></li>
+                         <li class=""><a href="Services HTML/service-mern.html" class="mob__nav__sub__link">MERN Development</a></li>
+                         <li class=""><a  href="Services HTML/service-websecurity.html" class="mob__nav__sub__link">Web Security</a></li>
+                         <li><hr class="dropdown-divider text-white"></li>
+                         <li class=""><a href="Services HTML/service-digitalmarketing.html" class="mob__nav__sub__link__heading ">Digital Marketing</a></li>
+                         <li class=""><a href="Services HTML/service-digitalmarketing.html#seo" class="mob__nav__sub__link">SEO</a></li>
+                         <li class=""><a href="Services HTML/service-digitalmarketing.html#smo" class="mob__nav__sub__link">SMO</a></li>
+                         <li class=""><a href="Services HTML/service-digitalmarketing.html#aso" class="mob__nav__sub__link">ASO</a></li>
+                         <li class=""><a href="Services HTML/service-digitalmarketing.html#email"  class="mob__nav__sub__link">Email marketing</a></li>
+                         <li><hr class="dropdown-divider text-white"></li>
+                         <li class=""><a href="Services HTML/service-ui-ux.html" class="mob__nav__sub__link__heading ">UI/UX Designing</a></li>
+                         <li class=""><a href="Services HTML/service-graphic.html" class="mob__nav__sub__link__heading ">Graphic Designing</a></li>
+                         <li class=""><a href="Services HTML/service-wearable.html" class="mob__nav__sub__link__heading ">Wearable Development</a></li>
+                         <li class=""><a href="Services HTML/service-iot.html" class="mob__nav__sub__link__heading ">IoT Development</a></li>
+                         <li class=""><a href="Services HTML/service-cloud.html" class="mob__nav__sub__link__heading ">Cloud Computing</a></li>
+                        
+                       </ul>
+                     </div>
+            </li>
+          
+            <li class="position-relative"><a class=" mob__nav__main__link actived" >PORTFOLIO</a></li>
+  
+            <li class="position-relative"><a class=" mob__nav__main__link" href="team.html">TEAM</a></li>
+         
+            <li class="position-relative"><a class=" mob__nav__main__link" >BLOG</a></li>
+            <li class=""><a class="btn get_in_touch " href="get-in-touch.html" role="button" style="max-width: 180px;">GET IN TOUCH</a></li>
+          </ul>
+  
+        </div>
+  </div>
+        </div>
+      
+      </nav>
+    <!-- Portfolio main container starts  -->
+    <div class="portfolio__main__outer__container overflow-hidden">
+      <div class="container-xxl px-3 px-sm-5 py-5">
+        <div class="row mb-5">
+          <h1 class="col-12 display-6 text-center fw-bold mt-5">
+            WORK THAT MAKE US STAND OUT
+          </h1>
+        </div>
+        <div class="row g-5">
+          <div class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-right" class="protfolio__content__box  protfolio__content__box__bigbliss p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">bigbliss</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    Bigbliss provide technology and services to enable consumers, merchants and other participants to conduct commerce in our 
+                    <span id="dotsbigbliss">...</span>
+                     <span id="morebigbliss">ecosystem.</span>
+                     </p>
+                    <button onclick="readMoreFunBigbliss()" id="myBtnbigbliss" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-bigbliss.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/Portfolio/portfolio-mob-icon.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-left" class="protfolio__content__box protfolio__content__box__ikonwork p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">Ikonwork</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    IKONWORK an entity free for career-seekers and to uniquely articulate customized solutions that focus on professional <span id="dotsikonwork">...</span > <span id="moreikonwork"> values. IKONWORK is  a revolutionary recruitment and professional social media venture that focuses on increasing recruitment productivity and reducing the burden felt by employers looking for candidates.</span>
+                  </p>
+                  <button onclick="readMoreFunikonwork()" id="myBtnikonwork" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-ikonwork.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/Portfolio/portfolio-mob-icon2.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div  class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-right" class="protfolio__content__box  protfolio__content__box__honeydeal p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">Honey Deal</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    Honey Deal is a premier online honey app that allows you to choose from over 25+ type of honey. Buy pure honey online at the <span id="dotshoneydeal">...</span> <span id="morehoneydeal">best 
+                      prices and get great discounts with honey \deal online shopping app.</span> 
+                  </p>
+                  <button onclick="readMoreFunhoneydeal()" id="myBtnhoneydeal" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-honeydeal.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/CaseStudy-honeydeal/app.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+          <div class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-left" class="protfolio__content__box  protfolio__content__box__theviwer p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">The Viwer</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    TheViewer Provide VR Tour, Just create a VR Tour by linking your 360° images and view in your gallery anytime, any place. No matter <span id="dotsviwer">...</span> <span id="moreviwer"> if you are an architect or an amateur photographer, it takes three quick steps to create a VR tour on theViewer:</span> 
+                  </p>
+                  <button onclick="readMoreFunviwer()" id="myBtnviwer" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-theviwer.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/carousel/theV.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div  class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-right" class="protfolio__content__box  protfolio__content__box__matic p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">Matic</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    MATIC services offers you the cleaning care your home deserves, covering over 15 cities in UAE, KSA,
+                    Bahrain, Qatar, and Lebanon. With <span id="dotsmatic">...</span> <span id="morematic"> MATIC app, you can book a cleaning service online and get matched
+                      with trained and trusted house maids in your area.</span>
+                  </p>
+                  <button onclick="readMoreFunmatic()" id="myBtnmatic" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-matic.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/Portfolio/matic.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+          <div class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-left" class="protfolio__content__box  protfolio__content__box__exam p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">Examarly</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    Examarly committed to quality. They are committed to your success in UPSC.
+                    Since preparing for the civil service exam can be <span id="dotsexamarly">...</span> <span id="moreexamarly"> a gruelling process to clear
+                      the UPSC exam with its high standards, rigour, and seemingly vast UPSC
+                      syllabus, they come up with a solution to speed up your UPSC preparation with
+                      a personalised strategy.</span> 
+                  </p>
+                  <button onclick="readMoreFunexamarly()" id="myBtnexamarly" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-exam.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/Portfolio/exam.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div  class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-right" class="protfolio__content__box  protfolio__content__box__jahez p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">Jahez</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    Jahez is platform that helps you find and order food from wherever you are. Install the mobile application,an address, they 
+<span id="dotsjahez">...</span> <span id="morejahez">type in  list the restaurants that deliver to that location, other users ratings.
+  Base on your choice, they will deliver your food with our state of the art delivery system, you can track
+  your meal as needed, and you will be notified once the driver is close to you.</span> 
+                  </p>
+                  <button onclick="readMoreFunjahez()" id="myBtnjahez" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-jahez.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/Portfolio/jahez.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+          <div class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-left" class="protfolio__content__box  protfolio__content__box__potafo p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">Potafo</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    Keralite’s love for food is the driving force behind this venture. They bring all the restaurants under one
+platform which provides <span id="dotspotafo">...</span> <span id="morepotafo"> the customers with variety of choices. They connect customers with many local restaurants
+  online, allowing customers to view menus and place orders for delivery in a quick, fun, friendly and
+  hassle-free way. Customers can order food and access a wide range of discounts using Potafo's website and
+  mobile application (IOS/ANDROID) in a few clicks.</span> 
+
+                  </p>
+                  <button onclick="readMoreFunpotafo()" id="myBtnpotafo" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-potafo.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/Portfolio/potafo.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div  class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6">
+            <div data-aos="fade-right" class="protfolio__content__box  protfolio__content__box__talktotreat p-4 p-sm-5 h-100">
+              <div class="row">
+                <div class="col-12 col-sm-7">
+                  <h1 class="text-white fs-2 Playfair__font">Talktotreat</h1>
+                  <p class="portfolio__content__para text-white lh-base mb-4">
+                    Talktotreat is an online Health app in which you may ask a health practitioner unfastened fitness questions and
+get professional <span id="dotstalktotreat">...</span><span id="moretalktotreat">solutions on your fitness queries. With the most important community of medical doctors and
+  healthcare companies from pinnacle clinics and hospitals, talktotreat serves customers from around the world.</span> 
+                  </p>
+                  <button onclick="readMoreFuntalktotreat()" id="myBtntalktotreat" class="protfolio__txtread mb-4">Read more</button>
+                <div style="width: 150px;">
+<div class="d-flex justify-content-between w-100">
+
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/android-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+  <a type="button" style="width: 48%;" class="btn btn-light py-2 px-4 mt-2 d-flex align-items-center justify-content-center"
+    ><img
+      src="images/Portfolio/ios-icon.png"
+    width="20px"
+      class=""
+      alt=""
+  /></a>
+</div>
+                  <a type="button" class="btn btn-dark py-1 px-4 mt-2 fs-5 d-block" href="CaseStudy-HTML/case-study-talktotreat.html"
+                    >Case Study</a>
+                </div>
+                  
+                  
+                </div>
+                <div class="offset-3 offset-sm-0 mt-4 mt-sm-0 col-6 col-sm-5">
+                  <img
+                    class="w-100"
+                    src="images/Portfolio/talktotreat.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div> 
+         
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio main container ends  -->
+
+     <!-- contact us section starts  -->
+     <div class="contactus__outer__main__container py-3 py-md-4">
+      <div class="container-xxl">
+        <div class="row mx-0 mx-sm-4">
+          <div class="col-12">
+            <p class="fs-5 fw-bold text-primary m-0">Contact Us</p>
+            <h1 class="fs-3 fw-bold">Contact Us If Need Help!</h1>
+          </div>
+        </div>
+        <div class="row mt-4 mx-0 mx-sm-4 px-2">
+          <div
+            class="side__image__container col-12 col-sm-4 col-md-6 d-none d-sm-block"
+          ></div>
+          <div class="form__container col-12 col-sm-8 col-md-6 p-4 p-sm-5">
+            <form action="" class="row g-3">
+              <input
+                class="col-6 bg-transparent input__border"
+                type="text"
+                name=""
+                id=""
+                placeholder="Your Name"
+              />
+              <input
+                class="col-6 bg-transparent input__border"
+                type="email"
+                name=""
+                id=""
+                placeholder="Your Email"
+              />
+              <input
+                class="col-12 bg-transparent input__border"
+                type="number"
+                name=""
+                id=""
+                placeholder="Phone Number"
+              />
+              <textarea
+                name=""
+                id=""
+                rows="5"
+                class="col-12 bg-transparent input__border"
+                placeholder="Your Messages"
+              ></textarea>
+
+              <input
+                value="GET A QUOTE"
+                class="py-3 btn btn-primary fw-bolder"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact us section ends  -->
+    <!-- information section starts  -->
+    <div class="p-3 p-md-5 my-5">
+      <div class="container-xxl information__section__border">
+        <div class="row">
+          <div class="col-12 col-sm-4 p-4 information__box__border__right">
+            <h3 class="text-center">Our Address</h3>
+            <p class="text-center">Noida sector-2 india 201301</p>
+          </div>
+          <div class="col-12 col-sm-4 p-4">
+            <h3 class="text-center">Talk To Expert</h3>
+            <p class="text-center">+91 8218302293</p>
+          </div>
+          <div class="col-12 col-sm-4 p-4 information__box__border__left">
+            <h3 class="text-center">Email Us</h3>
+            <p class="text-center">Sales@theblissfox.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- information section ends  -->
+
+   <!-- footer section starts  -->
+   <footer id="footer">
+    <div class="container-xxl px-3 px-md-4 pt-5">
+      <div class="row mx-0 mx-sm-4">
+        <div class="col-10 col-xl-4">
+          <h2 class="footer__link__heading text-white font__20 mb-4">
+            About BlissFox :
+          </h2>
+          <p class="text-white font__14">
+            We at The BlissFox are one of the leading mobile app development companies based out in Delhi with over a decade of experience under our belt. Further, we provide wide range of mobile app development services. Connect with us now to book our services.
+          </p>
+          <div class="row">
+            <div class="col-12 d-flex">
+              <a href="https://www.facebook.com/Blissfoxtech/?ref=pages_you_manage" 
+                class="text-decoration-none fa-brands fa-facebook-f text-white rounded-circle footer__icons__bg d-flex align-items-center justify-content-center mx-1"
+              ></a>
+
+              <a 
+                class="text-decoration-none fa-brands fa-twitter text-white rounded-circle footer__icons__bg d-flex align-items-center justify-content-center mx-1"
+              ></a>
+
+              <a href="https://www.instagram.com/blissfox_tech/?hl=en" 
+                class="text-decoration-none fa-brands fa-instagram text-white rounded-circle footer__icons__bg d-flex align-items-center justify-content-center mx-1"
+              ></a>
+
+              <a href="https://www.linkedin.com/company/blissfox" 
+                class="text-decoration-none fa-brands fa-linkedin-in text-white rounded-circle footer__icons__bg d-flex align-items-center justify-content-center mx-1"
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-10 col-sm-5 col-md-3 mt-5 mt-xl-0 col-xl-2 offset-1 d-flex flex-column"
+        >
+          <h1 class="footer__link__heading text-white font__20 mb-4">
+            Main Links
+          </h1>
+          <a
+            href="index.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Home</a
+          >
+          <a
+            href="about.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> About Us</a
+          >
+          <a
+            href="services.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Services</a
+          >
+          <a
+            href="portfolio.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Portfolio</a
+          >
+          <a
+            href="team.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Team</a
+          >
+          <a
+            
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Blog</a
+          >
+          <a
+            href="get-in-touch.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Get In Touch</a
+          >
+        </div>
+        <div
+          class="col-10 offset-1 offset-sm-0 col-sm-5 col-md-3 mt-5 mt-xl-0 col-xl-2 d-flex flex-column"
+        >
+          <h1 class="footer__link__heading text-white font__20 mb-4">
+            Quick Links
+          </h1>
+          <a class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Privacy Policy</a
+          >
+          <a class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Terms & Condition</a
+          >
+          <a class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> FAQ</a
+          >
+          <a class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Contact Us</a
+          >
+       </div>
+        <div
+          class="col-10 col-sm-5 offset-1 offset-md-0 col-md-3 mt-5 mt-xl-0 col-xl-2 d-flex flex-column"
+        >
+          <h1 class="footer__link__heading text-white font__20 mb-4">
+            Our Services
+          </h1>
+          <a
+            href="Services HTML/service-web.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Web Design &
+            Development</a
+          >
+          <a
+            href="Services HTML/service-android.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Android App
+            Development</a
+          >
+          <a
+            href="Services HTML/service-iot.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> IOS App Development</a
+          >
+          <a
+            href="Services HTML/service-seo.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> SEO</a
+          >
+        
+          <a
+            href="Services HTML/service-hybrid.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Hybrid App </a
+          >
+        
+          <a
+            href="Services HTML/service-ios.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> iOS Development</a
+          >
+        
+          <a
+            href="Services HTML/service-ui-ux.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> UI/UX Designing</a
+          >
+        
+          <a
+            href="Services HTML/service-wearable.html"
+            class="my-2 footer__links text-decoration-none font__14"
+            ><i class="fa-solid fa-angles-right"></i> Wearable Development</a
+          >
+          
+        
+      </div>
+      <div class="row mt-3">
+        <div
+          class="col-12 p-3 terms__box__border__top d-flex align-items-center justify-content-center"
+        >
+          <p class="text-white text-center font__14">
+            Copyright © 2022 Blissfox Technologies. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section ends  -->
+
+    <!-- bootstrap.js  -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- engine.js  -->
+    <script src="js/engine.js"></script>
+    <!-- navbar.js  -->
+    <script src="js/navbar.js"></script>
+    <!-- portfolio.js  -->
+    <script src="js/portfolio.js"></script>
+
+    <!-- fontawesome  -->
+    <script
+      src="https://kit.fontawesome.com/60792703d4.js"
+      crossorigin="anonymous"
+    ></script>
+
+     <!-- Scroll Animation  -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+   // Global settings:
+   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+   startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+   initClassName: 'aos-init', // class applied after initialization
+   animatedClassName: 'aos-animate', // class applied on animation
+   useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+   disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+   debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+   throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+   
+ 
+   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+   offset: 120, // offset (in px) from the original trigger point
+   delay: 0, // values from 0 to 3000, with step 50ms
+   duration: 500, // values from 0 to 3000, with step 50ms
+   easing: 'ease', // default easing for AOS animations
+   once: false, // whether animation should happen only once - while scrolling down
+   mirror: false, // whether elements should animate out while scrolling past them
+   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+ 
+ });
+     </script>
+
+    
+  </body>
+</html>

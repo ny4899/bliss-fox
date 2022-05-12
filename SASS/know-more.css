@@ -1,0 +1,20 @@
+.tech__link__box {
+  width: 180px;
+  height: 180px;
+}
+.tech__link__box img {
+  display: inline-block;
+  width: 40%;
+}
+@media only screen and (max-width: 992px) {
+  .tech__link__box {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .tech__link__box {
+    width: 120px;
+    height: 120px;
+  }
+}

@@ -1,0 +1,47 @@
+.driven__img {
+  height: 60px;
+}
+.driven__container__heading {
+  position: relative;
+}
+.driven__container__heading::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 80px;
+  height: 5px;
+  background-color: rgb(67, 163, 253);
+}
+.bg__1 {
+  background-image: url("../images/team-page/bg-1.jfif");
+}
+.bg__2 {
+  background-image: url("../images/team-page/bg-2.jfif");
+}
+.bg__3 {
+  background-image: url("../images/team-page/bg-1.jpg");
+}
+.bg__4 {
+  background-image: url("../images/team-page/bg-3.jfif");
+}
+.bg__5 {
+  background-image: url("../images/team-page/bg-5.jpg");
+}
+.bg__6 {
+  background-image: url("../images/team-page/bg-4.jfif");
+}
+.bg__7 {
+  background-image: url("../images/team-page/bg-6.jfif");
+}
+.bg_placement {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  height: 50vh;
+  transition: all 0.5s;
+}
+.bg_placement:hover {
+  opacity: 1;
+}

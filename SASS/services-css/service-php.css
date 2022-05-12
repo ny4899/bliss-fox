@@ -1,0 +1,21 @@
+.service__php__hero__outer__container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../images/service-html-graphic/hero.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our__php__service__heading {
+  position: relative;
+}
+.our__php__service__heading::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  width: 100px;
+  height: 6px;
+  background-color: rgb(62, 202, 245);
+}

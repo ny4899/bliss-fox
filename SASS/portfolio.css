@@ -1,0 +1,87 @@
+.protfolio__content__box {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+}
+.protfolio__content__box__bigbliss {
+  background-image: url("../images/Portfolio/portfolio-content-box-bg.png");
+}
+.protfolio__content__box__ikonwork {
+  background-image: url("../images/Portfolio/portfolio-content-box-bg2.png");
+}
+.protfolio__content__box__honeydeal {
+  background-image: url("../images/CaseStudy-honeydeal/bg.png");
+}
+.protfolio__content__box__theviwer {
+  background-image: url("../images/Portfolio/theV_bg.png");
+}
+.protfolio__content__box__matic {
+  background-image: url("../images/Portfolio/matic_bg.png");
+}
+.protfolio__content__box__exam {
+  background-image: url("../images/Portfolio/exam_bg.png");
+}
+.protfolio__content__box__jahez {
+  background-image: url("../images/Portfolio/jahez_bg.png");
+}
+.protfolio__content__box__potafo {
+  background-image: url("../images/Portfolio/potafo_bg.png");
+}
+.protfolio__content__box__talktotreat {
+  background-image: url("../images/Portfolio/talktotreat_bg.png");
+}
+.portfolio__content__para {
+  position: relative;
+}
+.portfolio__content__para::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 40px;
+  height: 4px;
+  background-color: white;
+}
+.my__nav__bnavbarg {
+  background-color: #030124 !important;
+  height: 60px;
+}
+.my__nav__background {
+  background-color: #030124 !important;
+}
+.protfolio__txtread {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  padding: 0;
+}
+#morebigbliss {
+  display: none;
+}
+#moreikonwork {
+  display: none;
+}
+#morehoneydeal {
+  display: none;
+}
+#moreviwer {
+  display: none;
+}
+#morematic {
+  display: none;
+}
+#moreexamarly {
+  display: none;
+}
+#morejahez {
+  display: none;
+}
+#morepotafo {
+  display: none;
+}
+#moretalktotreat {
+  display: none;
+}

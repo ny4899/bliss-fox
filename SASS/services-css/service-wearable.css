@@ -1,0 +1,8 @@
+.service__wearable__hero__outer__container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../images/service-html-wearable-imgs/hero.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

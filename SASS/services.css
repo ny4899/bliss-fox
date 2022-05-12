@@ -1,0 +1,103 @@
+.hero__outer__services__container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/service-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner__box__bg {
+  background-color: #0e141e;
+}
+.inner__box__bg2 {
+  background-color: #2e0021;
+}
+
+.inner__box__nav__shadow {
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2),
+    0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.inner__nav__active {
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.inner__nav__active:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.inner__nav__inactive {
+  color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+.inner__nav__inactive:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.gradient1__bg {
+  background-image: linear-gradient(to right, rgb(2, 112, 70), rgb(9, 6, 179));
+}
+/* .gradient2__bg {
+  background-image: linear-gradient(
+    to right,
+
+    rgb(104, 2, 104),
+    rgb(126, 0, 52)
+  );
+} */
+.gradient2__bg {
+  background-image: linear-gradient(
+    to right,
+
+    rgb(134, 4, 106),
+    #2e0021
+  );
+}
+.gradient3__bg {
+  background-image: linear-gradient(
+    to right,
+
+    rgb(0, 77, 87),
+    rgb(4, 175, 95)
+  );
+}
+.gradient__smbox1__bg {
+  background-image: linear-gradient(to right, rgb(1 21 67), rgb(127, 4, 175));
+}
+.gradient__smbox2__bg {
+  background-image: linear-gradient(to right, rgb(1 5 84), rgb(2 90 92));
+}
+.gradient__smbox3__bg {
+  background-image: linear-gradient(to right, rgb(70 12 12), rgb(216 29 86));
+}
+
+.gradient__smbox4__bg {
+  background-image: linear-gradient(to right, rgb(0 51 51), rgb(0 110 90));
+}
+.gradient__smbox5__bg {
+  background-image: linear-gradient(to right, rgb(49 14 14), rgb(153 50 50));
+}
+.gradient__smbox6__bg {
+  background-image: linear-gradient(to right, rgb(80 81 23), rgb(190, 171, 3));
+}
+
+.display__none {
+  display: none;
+}
+.display__flex {
+  display: flex;
+}
+.benefitsofourservices__container {
+  background-image: url(../images/About/who-we-are-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 992px) {
+  .gradient1__bg__remove {
+    display: none;
+  }
+}
+
+.list__style__circle {
+  list-style-type: circle;
+}
